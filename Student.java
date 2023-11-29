@@ -98,6 +98,7 @@ class Student {
         int RegstrNumber = scanner.nextInt();
         System.out.print("Enter student nationality: ");
         String nationality = scanner.nextLine();
+        scanner.nextLine(); // Consume the newline character    
         System.out.print("Enter student date of birth: ");
         String dateOfBirth = scanner.nextLine();
         System.out.print("Enter student region: ");
